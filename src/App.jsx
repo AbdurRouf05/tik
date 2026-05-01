@@ -387,8 +387,8 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen min-h-[100dvh] bg-slate-100 flex items-center justify-center p-0 sm:p-3 md:p-4 lg:p-6 font-sans text-slate-800">
-      <div className="w-full max-w-5xl min-h-screen sm:min-h-0 sm:h-auto sm:max-h-[92vh] bg-white sm:rounded-2xl md:rounded-3xl shadow-none sm:shadow-2xl overflow-hidden border-0 sm:border border-slate-200 flex flex-col">
+    <div className="min-h-screen min-h-[100dvh] bg-white font-sans text-slate-800">
+      <div className="w-full h-screen h-[100dvh] bg-white overflow-hidden flex flex-col">
         
         {/* Header (Global) */}
         <div className="bg-blue-600 p-4 md:p-5 text-white flex items-center justify-between shadow-md relative z-10">
